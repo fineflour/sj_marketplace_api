@@ -32,7 +32,7 @@ describe Authenticable do
       expect(json_response[:errors]).to eql "Not authenticated"
     end
 
-    it {  should respond_with 401 }
+    it { should respond_with 401 }
   end
 
   describe "#user_signed_in?" do
